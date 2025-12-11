@@ -1,7 +1,7 @@
-// Lambda function to send emails via Resend
-// Deploy this to AWS Lambda
+// Lambda function to send emails via AWS SES
+const AWS = require('aws-sdk');
 
-const https = require('https');
+const ses = new AWS.SES({ region: process.env.AWS_REGION || 'us-east-1' });
 
 exports.handler = async (event) => {
   // CORS headers
@@ -54,19 +54,9 @@ exports.handler = async (event) => {
       };
     }
 
-    // Get Resend API key from environment variable
-    const RESEND_API_KEY = process.env.RESEND_API_KEY;
-    if (!RESEND_API_KEY) {
-      console.error('RESEND_API_KEY environment variable not set');
-      return {
-        statusCode: 500,
-        headers,
-        body: JSON.stringify({ error: 'Server configuration error' }),
-      };
-    }
-
-    // Get recipient email from environment variable (default to support@ultimateapps.com)
+    // Get recipient email from environment variable
     const RECIPIENT_EMAIL = process.env.RECIPIENT_EMAIL || 'support@ultimateapps.com';
+    const SENDER_EMAIL = process.env.SENDER_EMAIL || 'noreply@ultimateapps.com';
 
     // Prepare email content
     const emailSubject = `Support Request: ${category || 'General Inquiry'}`;
@@ -81,24 +71,44 @@ exports.handler = async (event) => {
       <p>${escapeHtml(message).replace(/\n/g, '<br>')}</p>
     `;
 
-    // Send email via Resend API
-    const resendResponse = await sendResendEmail({
-      apiKey: RESEND_API_KEY,
-      from: 'Ultimate Mobile Apps <noreply@ultimateapps.com>', // Update with your verified domain
-      to: RECIPIENT_EMAIL,
-      replyTo: email,
-      subject: emailSubject,
-      html: emailHtml,
-    });
+    const emailText = `
+New Support Request
 
-    if (resendResponse.error) {
-      console.error('Resend API error:', resendResponse.error);
-      return {
-        statusCode: 500,
-        headers,
-        body: JSON.stringify({ error: 'Failed to send email' }),
-      };
-    }
+Name: ${name}
+Email: ${email}
+Category: ${category || 'General Inquiry'}
+${fileName ? `File: ${fileName}` : ''}
+
+Message:
+${message}
+    `;
+
+    // Send email via SES
+    const params = {
+      Source: SENDER_EMAIL,
+      Destination: {
+        ToAddresses: [RECIPIENT_EMAIL],
+      },
+      ReplyToAddresses: [email],
+      Message: {
+        Subject: {
+          Data: emailSubject,
+          Charset: 'UTF-8',
+        },
+        Body: {
+          Html: {
+            Data: emailHtml,
+            Charset: 'UTF-8',
+          },
+          Text: {
+            Data: emailText,
+            Charset: 'UTF-8',
+          },
+        },
+      },
+    };
+
+    const result = await ses.sendEmail(params).promise();
 
     return {
       statusCode: 200,
@@ -106,11 +116,23 @@ exports.handler = async (event) => {
       body: JSON.stringify({
         success: true,
         message: 'Email sent successfully',
-        id: resendResponse.id,
+        messageId: result.MessageId,
       }),
     };
   } catch (error) {
     console.error('Lambda error:', error);
+    
+    // Handle SES-specific errors
+    if (error.code === 'MessageRejected') {
+      return {
+        statusCode: 400,
+        headers,
+        body: JSON.stringify({ 
+          error: 'Email rejected. Please verify sender and recipient emails in SES.' 
+        }),
+      };
+    }
+
     return {
       statusCode: 500,
       headers,
@@ -118,59 +140,6 @@ exports.handler = async (event) => {
     };
   }
 };
-
-// Helper function to send email via Resend API
-function sendResendEmail({ apiKey, from, to, replyTo, subject, html }) {
-  return new Promise((resolve, reject) => {
-    const postData = JSON.stringify({
-      from,
-      to: [to],
-      reply_to: replyTo,
-      subject,
-      html,
-    });
-
-    const options = {
-      hostname: 'api.resend.com',
-      port: 443,
-      path: '/emails',
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Length': Buffer.byteLength(postData),
-      },
-    };
-
-    const req = https.request(options, (res) => {
-      let data = '';
-
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-
-      res.on('end', () => {
-        try {
-          const parsed = JSON.parse(data);
-          if (res.statusCode >= 200 && res.statusCode < 300) {
-            resolve(parsed);
-          } else {
-            resolve({ error: parsed });
-          }
-        } catch (e) {
-          resolve({ error: { message: 'Invalid response from Resend API' } });
-        }
-      });
-    });
-
-    req.on('error', (error) => {
-      resolve({ error: { message: error.message } });
-    });
-
-    req.write(postData);
-    req.end();
-  });
-}
 
 // Helper function to escape HTML
 function escapeHtml(text) {
@@ -183,4 +152,3 @@ function escapeHtml(text) {
   };
   return text.replace(/[&<>"']/g, (m) => map[m]);
 }
-
