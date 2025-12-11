@@ -1,0 +1,13 @@
+{
+  "name": "send-email-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function to send emails via Resend",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r function.zip index.js"
+  },
+  "keywords": ["lambda", "resend", "email"],
+  "author": "",
+  "license": "MIT"
+}
+

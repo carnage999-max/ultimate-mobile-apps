@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Apex Alert",
+    "tagline": "Advanced alert system.",
+    "icon": "/icons/apex-alert.png",
+    "iosURL": "https://apps.apple.com/app/apex-alert",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.apexalert"
+  },
+  {
+    "name": "Apex Hunter",
+    "tagline": "Professional hunting companion.",
+    "icon": "/icons/apex-hunter.png",
+    "iosURL": "https://apps.apple.com/app/apex-hunter",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.apexhunter"
+  },
+  {
+    "name": "AurumFlux",
+    "tagline": "Financial management made simple.",
+    "icon": "/icons/aurumflux.png",
+    "iosURL": "https://apps.apple.com/app/aurumflux",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.aurumflux"
+  },
+  {
+    "name": "AutoPhaShield",
+    "tagline": "Protect your digital identity.",
+    "icon": "/icons/autophashield.png",
+    "iosURL": "https://apps.apple.com/app/autophashield",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.autophashield"
+  },
+  {
+    "name": "Blackout Shield",
+    "tagline": "Privacy protection at your fingertips.",
+    "icon": "/icons/blackout-shield.png",
+    "iosURL": "https://apps.apple.com/app/blackout-shield",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.blackoutshield"
+  },
+  {
+    "name": "Choice Parts",
+    "tagline": "Find the right parts, every time.",
+    "icon": "/icons/choice-parts.png",
+    "iosURL": "https://apps.apple.com/app/choice-parts",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.choiceparts"
+  },
+  {
+    "name": "Choice Pizza",
+    "tagline": "Your perfect pizza, delivered.",
+    "icon": "/icons/choice-pizza.png",
+    "iosURL": "https://apps.apple.com/app/choice-pizza",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.choicepizza"
+  },
+  {
+    "name": "Conservative Coffee",
+    "tagline": "Premium coffee experience.",
+    "icon": "/icons/conservative-coffee.png",
+    "iosURL": "https://apps.apple.com/app/conservative-coffee",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.conservativecoffee"
+  },
+  {
+    "name": "CopStop",
+    "tagline": "Stay informed, stay safe.",
+    "icon": "/icons/copstop.png",
+    "iosURL": "https://apps.apple.com/app/copstop",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.copstop"
+  },
+  {
+    "name": "CradleGuardian",
+    "tagline": "Protecting what matters most.",
+    "icon": "/icons/CradleGuardian.png",
+    "iosURL": "https://apps.apple.com/app/cradleguardian",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.cradleguardian"
+  },
+  {
+    "name": "CustodyCare",
+    "tagline": "Family legal support simplified.",
+    "icon": "/icons/CustodyCare.png",
+    "iosURL": "https://apps.apple.com/app/custodycare",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.custodycare"
+  },
+  {
+    "name": "Drug Guard",
+    "tagline": "Medication safety and tracking.",
+    "icon": "/icons/drug-guard.png",
+    "iosURL": "https://apps.apple.com/app/drug-guard",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.drugguard"
+  },
+  {
+    "name": "Evergreen Fund",
+    "tagline": "Sustainable investment tracking.",
+    "icon": "/icons/evergreen-fund.png",
+    "iosURL": "https://apps.apple.com/app/evergreen-fund",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.evergreenfund"
+  },
+  {
+    "name": "FreedomTek®",
+    "tagline": "Advanced productivity tools.",
+    "icon": "/icons/freedomTek.png",
+    "iosURL": "https://apps.apple.com/app/freedomtek",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.freedomtek"
+  },
+  {
+    "name": "Hydra Wall",
+    "tagline": "Multi-layer security protection.",
+    "icon": "/icons/hydra-wall.png",
+    "iosURL": "https://apps.apple.com/app/hydra-wall",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.hydrawall"
+  },
+  {
+    "name": "Identifi",
+    "tagline": "Identity verification made easy.",
+    "icon": "/icons/identifi.png",
+    "iosURL": "https://apps.apple.com/app/identifi",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.identifi"
+  },
+  {
+    "name": "LeafMate",
+    "tagline": "Your plant care companion.",
+    "icon": "/icons/LeafMate.png",
+    "iosURL": "https://apps.apple.com/app/leafmate",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.leafmate"
+  },
+  {
+    "name": "LeakHawk",
+    "tagline": "Detect leaks before they become problems.",
+    "icon": "/icons/LeakHawk.png",
+    "iosURL": "https://apps.apple.com/app/leakhawk",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.leakhawk"
+  },
+  {
+    "name": "Maine News Today",
+    "tagline": "Stay informed with local news.",
+    "icon": "/icons/maine-news-today.png",
+    "iosURL": "https://apps.apple.com/app/maine-news-today",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.mainenewstoday"
+  },
+  {
+    "name": "Maine Private Processors",
+    "tagline": "Connect with local processors.",
+    "icon": "/icons/maine-private-processors.png",
+    "iosURL": "https://apps.apple.com/app/maine-private-processors",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.maineprivateprocessors"
+  },
+  {
+    "name": "Membership Auto",
+    "tagline": "Automated membership management.",
+    "icon": "/icons/membership-auto.png",
+    "iosURL": "https://apps.apple.com/app/membership-auto",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.membershipauto"
+  },
+  {
+    "name": "Never Forget",
+    "tagline": "Remember what matters most.",
+    "icon": "/icons/never Forget.png",
+    "iosURL": "https://apps.apple.com/app/never-forget",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.neverforget"
+  },
+  {
+    "name": "PhantomKey",
+    "tagline": "Secure key management.",
+    "icon": "/icons/phantomkey.png",
+    "iosURL": "https://apps.apple.com/app/phantomkey",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.phantomkey"
+  },
+  {
+    "name": "Pulse Stop",
+    "tagline": "Monitor your heart health.",
+    "icon": "/icons/pulse-stop.png",
+    "iosURL": "https://apps.apple.com/app/pulse-stop",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.pulsestop"
+  },
+  {
+    "name": "Reardon Cancer Protocol",
+    "tagline": "Supporting your cancer journey.",
+    "icon": "/icons/reardon-cancer-protocol.png",
+    "iosURL": "https://apps.apple.com/app/reardon-cancer-protocol",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.reardoncancerprotocol"
+  },
+  {
+    "name": "SaniSpray",
+    "tagline": "Hygiene tracking and reminders.",
+    "icon": "/icons/SaniSpray.png",
+    "iosURL": "https://apps.apple.com/app/sanispray",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.sanispray"
+  },
+  {
+    "name": "Scentinel",
+    "tagline": "Fragrance management and discovery.",
+    "icon": "/icons/scentinel.png",
+    "iosURL": "https://apps.apple.com/app/scentinel",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.scentinel"
+  },
+  {
+    "name": "TerraGuard",
+    "tagline": "Environmental protection tools.",
+    "icon": "/icons/terraguard.png",
+    "iosURL": "https://apps.apple.com/app/terraguard",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.terraguard"
+  },
+  {
+    "name": "The Gospel Line",
+    "tagline": "Spiritual guidance and resources.",
+    "icon": "/icons/the-gospel-line.png",
+    "iosURL": "https://apps.apple.com/app/the-gospel-line",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.thegospelline"
+  },
+  {
+    "name": "The Reardon Protocol",
+    "tagline": "Health protocol management.",
+    "icon": "/icons/the-reardon-protocol.png",
+    "iosURL": "https://apps.apple.com/app/the-reardon-protocol",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.thereardonprotocol"
+  },
+  {
+    "name": "Traker",
+    "tagline": "Track everything that matters.",
+    "icon": "/icons/Traker.png",
+    "iosURL": "https://apps.apple.com/app/traker",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.traker"
+  },
+  {
+    "name": "Ultimate Apartment Manager",
+    "tagline": "Complete property management solution.",
+    "icon": "/icons/ultimate-apartment-manager.png",
+    "iosURL": "https://apps.apple.com/app/ultimate-apartment-manager",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.ultimateapartmentmanager"
+  },
+  {
+    "name": "VitaChoice®",
+    "tagline": "Premium nutrient optimization.",
+    "icon": "/icons/Vita Choice.png",
+    "iosURL": "https://apps.apple.com/app/vitachoice",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.vitachoice"
+  }
+]
