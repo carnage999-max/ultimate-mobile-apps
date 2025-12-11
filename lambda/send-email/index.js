@@ -1,7 +1,8 @@
 // Lambda function to send emails via AWS SES
 const AWS = require('aws-sdk');
 
-const ses = new AWS.SES({ region: process.env.AWS_REGION || 'us-east-1' });
+// Default to us-east-1 (AWS Lambda automatically sets the region, but we'll default to us-east-1)
+const ses = new AWS.SES({ region: 'us-east-1' });
 
 exports.handler = async (event) => {
   // CORS headers
