@@ -30,13 +30,9 @@ export default function Footer() {
           {/* Apps Section */}
           <div>
             <h4 className="text-sm font-semibold mb-4 text-white">Our Apps</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
-              <li>VitaChoice®</li>
-              <li>Timer for Life</li>
-              <li>FreedomTek®</li>
-              <li>LibertySocial™</li>
-              <li>LegalTraker™</li>
-            </ul>
+            <Link href="/apps" className="text-sm text-gray-400 hover:text-white transition-colors">
+              View All Apps
+            </Link>
           </div>
 
           {/* Links Section */}

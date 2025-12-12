@@ -1,5 +1,5 @@
-// API configuration for Lambda endpoint
-const API_ENDPOINT = process.env.NEXT_PUBLIC_API_ENDPOINT || '';
+// API configuration - uses local API route by default
+const API_ENDPOINT = process.env.NEXT_PUBLIC_API_ENDPOINT || '/api/contact';
 
 export interface ContactFormData {
   name: string;
@@ -10,11 +10,6 @@ export interface ContactFormData {
 }
 
 export async function sendContactEmail(data: ContactFormData): Promise<{ success: boolean; error?: string }> {
-  if (!API_ENDPOINT) {
-    console.error('API endpoint not configured');
-    return { success: false, error: 'API endpoint not configured' };
-  }
-
   try {
     const response = await fetch(API_ENDPOINT, {
       method: 'POST',
