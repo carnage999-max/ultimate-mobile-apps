@@ -35,12 +35,13 @@ export default function Home() {
 
             {/* Image: show above text on mobile (order-first), side on desktop (order-last) */}
             <div className="flex-shrink-0 order-first md:order-last">
-              <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden mx-auto md:mx-0 border border-white/10 shadow-lg">
+              {/* Increased size by ~50%: w-40 -> w-60, sm:w-48 -> sm:w-72, md:w-56 -> md:w-84 */}
+              <div className="w-60 h-60 sm:w-72 sm:h-72 md:w-84 md:h-84 rounded-2xl overflow-hidden mx-auto md:mx-0 border border-white/10 shadow-lg">
                 <Image
                   src="/icons/icon.jpeg"
                   alt="Ultimate Mobile Apps"
-                  width={224}
-                  height={224}
+                  width={336}
+                  height={336}
                   className="object-cover w-full h-full"
                   priority
                 />
