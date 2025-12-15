@@ -17,9 +17,13 @@ export default function AppCard({ name, tagline, icon, iosURL, androidURL }: App
 
   return (
     <div className="group relative">
-      <div className="glass-strong rounded-2xl p-6 hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/20 border border-white/10">
+      {/* Metallic gradient border effect */}
+      <div className="absolute inset-0 rounded-2xl p-[2px] bg-gradient-to-br from-blue-400/60 via-purple-400/40 to-pink-400/60 pointer-events-none group-hover:from-blue-300/80 group-hover:via-purple-300/60 group-hover:to-pink-300/80 transition-all duration-300" />
+      {/* Inner light border for content prominence */}
+      <div className="absolute inset-[2px] rounded-2xl border border-cyan-200/30 group-hover:border-cyan-200/50 pointer-events-none transition-all duration-300" />
+      <div className="glass-strong rounded-2xl p-6 hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 border border-white/20 h-full flex flex-col relative z-10 group-hover:border-white/40">
         {/* App Icon */}
-        <div className="mb-4 flex justify-center">
+        <div className="mb-4 flex justify-center flex-shrink-0">
           <div className="relative w-24 h-24 rounded-2xl overflow-hidden glass border border-white/20 group-hover:border-white/40 transition-all flex items-center justify-center">
             {!imageError ? (
               <Image
@@ -43,10 +47,10 @@ export default function AppCard({ name, tagline, icon, iosURL, androidURL }: App
         <h3 className="text-xl font-bold mb-2 text-center text-white">{name}</h3>
 
         {/* Tagline */}
-        <p className="text-sm text-gray-400 text-center mb-6">{tagline}</p>
+        <p className="text-sm text-gray-400 text-center mb-6 flex-grow">{tagline}</p>
 
         {/* Store Badges */}
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center flex-shrink-0">
           <Link
             href={iosURL}
             target="_blank"

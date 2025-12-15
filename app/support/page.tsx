@@ -120,6 +120,31 @@ export default function Support() {
         <section>
           <div className="glass-strong rounded-2xl p-8 md:p-12 border border-white/10">
             <h2 className="text-3xl font-bold mb-6 text-white">Contact Us</h2>
+            
+            {/* Contact Information */}
+            <div className="mb-8 p-6 rounded-lg glass border border-white/20">
+              <p className="text-sm font-semibold text-gray-300 mb-4">You can reach us at:</p>
+              <div className="text-gray-300 space-y-3">
+                <div>
+                  <p className="font-semibold text-white text-sm">Mailing Address:</p>
+                  <p className="text-sm ml-4">
+                    PO Box 52,<br />
+                    Detroit, ME 04929
+                  </p>
+                </div>
+                <div>
+                  <p className="font-semibold text-white text-sm">Phone:</p>
+                  <p className="text-sm">207-947-1999</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-white text-sm">Email:</p>
+                  <p className="text-sm">support@ultimateapps.com</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Contact Form */}
+            <h3 className="text-2xl font-bold mb-6 text-white">Send us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">

@@ -16,8 +16,13 @@ export default function AppCardList({ name, tagline, icon, iosURL, androidURL }:
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div className="glass-strong rounded-xl p-4 hover:shadow-lg hover:shadow-purple-500/10 border border-white/10 transition-all duration-300">
-      <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
+    <div className="relative group">
+      {/* Metallic gradient border effect */}
+      <div className="absolute inset-0 rounded-xl p-[1.5px] bg-gradient-to-r from-blue-400/50 via-purple-400/40 to-pink-400/50 pointer-events-none group-hover:from-blue-300/70 group-hover:via-purple-300/60 group-hover:to-pink-300/70 transition-all duration-300 rounded-xl" />
+      {/* Inner light border for content prominence */}
+      <div className="absolute inset-[1.5px] rounded-xl border border-cyan-200/30 group-hover:border-cyan-200/50 pointer-events-none transition-all duration-300" />
+      <div className="glass-strong rounded-xl p-4 hover:shadow-lg hover:shadow-purple-500/20 border border-white/20 transition-all duration-300 h-full flex flex-col relative z-10 group-hover:border-white/40">
+      <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 h-full">
         {/* App Icon */}
         <div className="flex-shrink-0">
           <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden glass border border-white/20 transition-all flex items-center justify-center">
@@ -39,9 +44,11 @@ export default function AppCardList({ name, tagline, icon, iosURL, androidURL }:
         </div>
 
         {/* Content */}
-        <div className="flex-1 text-center sm:text-left">
-          <h3 className="text-lg font-bold mb-1 text-white">{name}</h3>
-          <p className="text-sm text-gray-400 mb-4">{tagline}</p>
+        <div className="flex-1 text-center sm:text-left flex flex-col justify-between">
+          <div>
+            <h3 className="text-lg font-bold mb-1 text-white">{name}</h3>
+            <p className="text-sm text-gray-400 mb-4">{tagline}</p>
+          </div>
           
           {/* Store Badges */}
           <div className="flex flex-col sm:flex-row gap-2 justify-center sm:justify-start">
@@ -69,6 +76,7 @@ export default function AppCardList({ name, tagline, icon, iosURL, androidURL }:
             </Link>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

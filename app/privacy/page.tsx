@@ -86,8 +86,20 @@ export default function Privacy() {
 
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
-              <p>
-                If you have any questions about this Privacy Policy, please contact us through our Support page or at support@ultimateapps.com.
+              <p className="mb-4">
+                If you have any questions about this Privacy Policy, please contact us:
+              </p>
+              <div className="text-gray-300 space-y-2">
+                <p><strong className="text-white">Mailing Address:</strong></p>
+                <p className="ml-4">
+                  PO Box 52,<br />
+                  Detroit, ME 04929
+                </p>
+                <p className="mt-4"><strong className="text-white">Phone:</strong> 207-947-1999</p>
+                <p className="mt-4"><strong className="text-white">Email:</strong> support@ultimateapps.com</p>
+              </div>
+              <p className="mt-4">
+                You can also reach us through our Support page.
               </p>
             </section>
           </div>
