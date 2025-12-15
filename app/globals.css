@@ -78,3 +78,56 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.3);
 }
+
+/* Tech Border Animations - GPU optimized */
+@keyframes circuit-trace {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes energy-pulse {
+  0%, 100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes scanline-sweep {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .tech-border-animated *,
+  .tech-border-animated::before,
+  .tech-border-animated::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Low power mode detection (disable animations on battery) */
+@media (prefers-reduced-motion: reduce), (prefers-reduced-data: reduce) {
+  .tech-border-animated::after {
+    animation: none;
+  }
+}

@@ -1,7 +1,7 @@
 [
   {
     "name": "Apex Alert",
-    "tagline": "Advanced alert system.",
+    "tagline": "Advanced portable threat detection for public and private speaking events.",
     "icon": "/icons/apex-alert.png",
     "iosURL": "https://apps.apple.com/app/apex-alert",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.apexalert"
@@ -15,98 +15,98 @@
   },
   {
     "name": "AurumFlux",
-    "tagline": "Financial management made simple.",
+    "tagline": "Gathering the ocean's gold.",
     "icon": "/icons/aurumflux.png",
     "iosURL": "https://apps.apple.com/app/aurumflux",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.aurumflux"
   },
   {
     "name": "AutoPhaShield",
-    "tagline": "Protect your digital identity.",
+    "tagline": "Triggering autophagy, cold shock proteins, and heat shock proteins without fasting, cold plunge, or extreme heat.",
     "icon": "/icons/autophashield.png",
     "iosURL": "https://apps.apple.com/app/autophashield",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.autophashield"
   },
   {
     "name": "Blackout Shield",
-    "tagline": "Privacy protection at your fingertips.",
+    "tagline": "Non-disruptive security cameras.",
     "icon": "/icons/blackout-shield.png",
     "iosURL": "https://apps.apple.com/app/blackout-shield",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.blackoutshield"
   },
   {
     "name": "Choice Parts",
-    "tagline": "Find the right parts, every time.",
+    "tagline": "New, used, OEM, aftermarket all in one place.",
     "icon": "/icons/choice-parts.png",
     "iosURL": "https://apps.apple.com/app/choice-parts",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.choiceparts"
   },
   {
     "name": "Choice Pizza",
-    "tagline": "Your perfect pizza, delivered.",
+    "tagline": "Great pizza, multiple sauces, your choice of flavor. Designed by you.",
     "icon": "/icons/choice-pizza.png",
     "iosURL": "https://apps.apple.com/app/choice-pizza",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.choicepizza"
   },
   {
     "name": "Conservative Coffee",
-    "tagline": "Premium coffee experience.",
+    "tagline": "A great cup of coffee shouldn't break the bank.",
     "icon": "/icons/conservative-coffee.png",
     "iosURL": "https://apps.apple.com/app/conservative-coffee",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.conservativecoffee"
   },
   {
     "name": "CopStop",
-    "tagline": "Stay informed, stay safe.",
+    "tagline": "Stopping police vehicle theft through app control.",
     "icon": "/icons/copstop.png",
     "iosURL": "https://apps.apple.com/app/copstop",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.copstop"
   },
   {
     "name": "CradleGuardian",
-    "tagline": "Protecting what matters most.",
+    "tagline": "Health monitoring baby blanket system.",
     "icon": "/icons/CradleGuardian.png",
     "iosURL": "https://apps.apple.com/app/cradleguardian",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.cradleguardian"
   },
   {
     "name": "CustodyCare",
-    "tagline": "Family legal support simplified.",
+    "tagline": "Complete jail solutions to make inmates and correctional officers more safe.",
     "icon": "/icons/CustodyCare.png",
     "iosURL": "https://apps.apple.com/app/custodycare",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.custodycare"
   },
   {
     "name": "Drug Guard",
-    "tagline": "Medication safety and tracking.",
+    "tagline": "Smelling drugs in your rental for early detection.",
     "icon": "/icons/drug-guard.png",
     "iosURL": "https://apps.apple.com/app/drug-guard",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.drugguard"
   },
   {
     "name": "Evergreen Fund",
-    "tagline": "Sustainable investment tracking.",
+    "tagline": "Perpetual giving.",
     "icon": "/icons/evergreen-fund.png",
     "iosURL": "https://apps.apple.com/app/evergreen-fund",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.evergreenfund"
   },
   {
     "name": "FreedomTek®",
-    "tagline": "Advanced productivity tools.",
+    "tagline": "Prison tablet developed to educate and entertain detainees.",
     "icon": "/icons/freedomTek.png",
     "iosURL": "https://apps.apple.com/app/freedomtek",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.freedomtek"
   },
   {
     "name": "Hydra Wall",
-    "tagline": "Multi-layer security protection.",
+    "tagline": "Unbreakable firewall security.",
     "icon": "/icons/hydra-wall.png",
     "iosURL": "https://apps.apple.com/app/hydra-wall",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.hydrawall"
   },
   {
     "name": "Identifi",
-    "tagline": "Identity verification made easy.",
+    "tagline": "Animal detection and deflection technology for home and vehicle.",
     "icon": "/icons/identifi.png",
     "iosURL": "https://apps.apple.com/app/identifi",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.identifi"
@@ -126,6 +126,13 @@
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.leakhawk"
   },
   {
+    "name": "Legal Connect",
+    "tagline": "Quickly and efficiently connects you with the right lawyer.",
+    "icon": "/icons/legal-connect.png",
+    "iosURL": "https://apps.apple.com/app/legal-connect",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.legalconnect"
+  },
+  {
     "name": "Maine News Today",
     "tagline": "Stay informed with local news.",
     "icon": "/icons/maine-news-today.png",
@@ -141,7 +148,7 @@
   },
   {
     "name": "Membership Auto",
-    "tagline": "Automated membership management.",
+    "tagline": "Making vehicle safety and service affordable.",
     "icon": "/icons/membership-auto.png",
     "iosURL": "https://apps.apple.com/app/membership-auto",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.membershipauto"
@@ -155,14 +162,14 @@
   },
   {
     "name": "PhantomKey",
-    "tagline": "Secure key management.",
+    "tagline": "You can't steal the car without knowing how to start it.",
     "icon": "/icons/phantomkey.png",
     "iosURL": "https://apps.apple.com/app/phantomkey",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.phantomkey"
   },
   {
     "name": "Pulse Stop",
-    "tagline": "Monitor your heart health.",
+    "tagline": "We stop police chases before they end badly.",
     "icon": "/icons/pulse-stop.png",
     "iosURL": "https://apps.apple.com/app/pulse-stop",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.pulsestop"
@@ -176,21 +183,21 @@
   },
   {
     "name": "SaniSpray",
-    "tagline": "Hygiene tracking and reminders.",
+    "tagline": "Automatic door knob and surface sanitizer.",
     "icon": "/icons/SaniSpray.png",
     "iosURL": "https://apps.apple.com/app/sanispray",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.sanispray"
   },
   {
     "name": "Scentinel",
-    "tagline": "Fragrance management and discovery.",
+    "tagline": "We warn you before the smoke and before the fire.",
     "icon": "/icons/scentinel.png",
     "iosURL": "https://apps.apple.com/app/scentinel",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.scentinel"
   },
   {
     "name": "TerraGuard",
-    "tagline": "Environmental protection tools.",
+    "tagline": "We detect sinkholes before they happen.",
     "icon": "/icons/terraguard.png",
     "iosURL": "https://apps.apple.com/app/terraguard",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.terraguard"
@@ -204,14 +211,14 @@
   },
   {
     "name": "The Reardon Protocol",
-    "tagline": "Health protocol management.",
+    "tagline": "Functional type one and type two diabetes reversal.",
     "icon": "/icons/the-reardon-protocol.png",
     "iosURL": "https://apps.apple.com/app/the-reardon-protocol",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.thereardonprotocol"
   },
   {
     "name": "Traker",
-    "tagline": "Track everything that matters.",
+    "tagline": "Legal document tracking and deadline scheduler.",
     "icon": "/icons/Traker.png",
     "iosURL": "https://apps.apple.com/app/traker",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.traker"
@@ -225,7 +232,7 @@
   },
   {
     "name": "VitaChoice®",
-    "tagline": "Premium nutrient optimization.",
+    "tagline": "The world's first and only fully customizable liquid multivitamin.",
     "icon": "/icons/Vita Choice.png",
     "iosURL": "https://apps.apple.com/app/vitachoice",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.vitachoice"
