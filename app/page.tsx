@@ -1,6 +1,7 @@
-'use client';
+ 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import appsData from '@/data/apps.json';
 import AppCard from '@/components/AppCard';
 import AppCardList from '@/components/AppCardList';
@@ -18,15 +19,34 @@ export default function Home() {
         <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-pink-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '4s' }} />
       </div>
 
-      {/* Hero Section */}
+      {/* Hero Section - responsive image */}
       <section className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-        <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Premium Apps. Unified Vision.
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Ultimate Mobile Apps develops advanced, secure, user-friendly tools across health, legal, social, and productivity sectors.
-          </p>
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            {/* Text */}
+            <div className="flex-1 text-center md:text-left">
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                Premium Apps. Unified Vision.
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto md:mx-0">
+                Ultimate Mobile Apps develops advanced, secure, user-friendly tools across health, legal, social, and productivity sectors.
+              </p>
+            </div>
+
+            {/* Image: show above text on mobile (order-first), side on desktop (order-last) */}
+            <div className="flex-shrink-0 order-first md:order-last">
+              <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden mx-auto md:mx-0 border border-white/10 shadow-lg">
+                <Image
+                  src="/icons/icon.jpeg"
+                  alt="Ultimate Mobile Apps"
+                  width={224}
+                  height={224}
+                  className="object-cover w-full h-full"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
