@@ -72,7 +72,7 @@
   {
     "name": "CustodyCare",
     "tagline": "Complete jail solutions to make inmates and correctional officers more safe.",
-    "icon": "/icons/CustodyCare.png",
+    "icon": "/icons/custody-care.png",
     "iosURL": "https://apps.apple.com/app/custodycare",
     "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.custodycare"
   },
@@ -130,14 +130,14 @@
     "tagline": "Quickly and efficiently connects you with the right lawyer.",
     "icon": "/icons/legal-connect.png",
     "iosURL": "https://apps.apple.com/app/legal-connect",
-    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.legalconnect"
+    "androidURL": "https://play.google.com/store/apps/details?id=com.legalconnect.app"
   },
   {
-    "name": "Maine News Today",
+    "name": "Maine News Now",
     "tagline": "Stay informed with local news.",
-    "icon": "/icons/maine-news-today.png",
-    "iosURL": "https://apps.apple.com/app/maine-news-today",
-    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.mainenewstoday"
+    "icon": "/icons/maine-news-now.png",
+    "iosURL": "https://apps.apple.com/app/maine-news-now",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.mainenewstoday.app"
   },
   {
     "name": "Maine Private Processors",
@@ -151,7 +151,7 @@
     "tagline": "Making vehicle safety and service affordable.",
     "icon": "/icons/membership-auto.png",
     "iosURL": "https://apps.apple.com/app/membership-auto",
-    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.membershipauto"
+    "androidURL": "https://play.google.com/store/apps/details?id=com.membershipauto.mobile"
   },
   {
     "name": "Never Forget",
@@ -221,20 +221,217 @@
     "tagline": "Legal document tracking and deadline scheduler.",
     "icon": "/icons/Traker.png",
     "iosURL": "https://apps.apple.com/app/traker",
-    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.traker"
+    "androidURL": "https://play.google.com/store/apps/details?id=com.faadi123.legaltracker"
   },
   {
     "name": "Ultimate Apartment Manager",
     "tagline": "Complete property management solution.",
     "icon": "/icons/ultimate-apartment-manager.png",
     "iosURL": "https://apps.apple.com/app/ultimate-apartment-manager",
-    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.ultimateapartmentmanager"
+    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapartmentmanager.app"
   },
   {
     "name": "VitaChoice®",
     "tagline": "The world's first and only fully customizable liquid multivitamin.",
     "icon": "/icons/Vita Choice.png",
     "iosURL": "https://apps.apple.com/app/vitachoice",
-    "androidURL": "https://play.google.com/store/apps/details?id=com.ultimateapps.vitachoice"
+    "androidURL": "https://play.google.com/store/apps/details?id=com.se7enincs.vitachoice"
+  },
+  {
+    "name": "No Limit Flix",
+    "tagline": "Stream movies and shows without limits.",
+    "icon": "/icons/no-limit-flix.png",
+    "iosURL": "",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.nolimitflix.app"
+  },
+  {
+    "name": "Liberty Social",
+    "tagline": "Social platform for liberty-minded communities.",
+    "icon": "/icons/liberty-social.png",
+    "iosURL": "",
+    "androidURL": "https://play.google.com/store/apps/details?id=com.libertysocial.app"
+  }
+  ,
+  {
+    "name": "Aurum Mercury",
+    "tagline": "Real-time mercury monitoring and reports.",
+    "icon": "/icons/aurum-mercury.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Aurum Microplastics",
+    "tagline": "Detect and log microplastic presence.",
+    "icon": "/icons/aurum-microplastics.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Choice Auto Sales",
+    "tagline": "Find and buy vehicles from trusted sellers.",
+    "icon": "/icons/choice-auto-sales.jpeg",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Core Volt",
+    "tagline": "Manage battery health and performance.",
+    "icon": "/icons/core-volt.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Dos Amigos",
+    "tagline": "Order from your favorite local spots.",
+    "icon": "/icons/dos-amigos.jpeg",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Fire Guard GT",
+    "tagline": "Advanced fire detection and alerts.",
+    "icon": "/icons/fire-guard-gt.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Freedom Car & Truck",
+    "tagline": "Fleet tracking and maintenance.",
+    "icon": "/icons/freedom-car-and-truck.jpeg",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Fuel Maxx",
+    "tagline": "Optimize fuel usage and costs.",
+    "icon": "/icons/fuel-maxx.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Genesis Chamber",
+    "tagline": "Environmental chamber control and logs.",
+    "icon": "/icons/genesis-chamber.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Hydra Sense",
+    "tagline": "Advanced sensing for water systems.",
+    "icon": "/icons/hydra-sense.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Keto Sense",
+    "tagline": "Track ketogenic progress and metrics.",
+    "icon": "/icons/keto-sense.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Key Vault",
+    "tagline": "Securely store and share keys.",
+    "icon": "/icons/key-vault.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Meals That Heal",
+    "tagline": "Nutrition plans for better recovery.",
+    "icon": "/icons/meals-that-heal.jpeg",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Membership Barber Shop",
+    "tagline": "Barber appointments and membership perks.",
+    "icon": "/icons/membership-barber-shop.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Pest Fence",
+    "tagline": "Keep pests out with smart detection.",
+    "icon": "/icons/pest-fence.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Pet Savers",
+    "tagline": "Find and rescue lost pets.",
+    "icon": "/icons/pet-savers.jpeg",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Quantus",
+    "tagline": "Data analytics and visualization.",
+    "icon": "/icons/quantus.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Rail Scout",
+    "tagline": "Rail monitoring and incident reporting.",
+    "icon": "/icons/rail-scout.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Right Jobs",
+    "tagline": "Match candidates to the right roles.",
+    "icon": "/icons/right-jobs.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "SmogNet",
+    "tagline": "Air quality monitoring and alerts.",
+    "icon": "/icons/smognet.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Storm Defender",
+    "tagline": "Storm tracking and preparedness tools.",
+    "icon": "/icons/storm-defender.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Task Manager",
+    "tagline": "Organize tasks and increase productivity.",
+    "icon": "/icons/task-manager.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Timer For Life",
+    "tagline": "Timers and reminders for daily habits.",
+    "icon": "/icons/timer-for-life.jpeg",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Watchtower",
+    "tagline": "Remote monitoring and alerting.",
+    "icon": "/icons/watchtower.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Work History Registry",
+    "tagline": "Secure employment records and resumes.",
+    "icon": "/icons/work-history-registry.png",
+    "iosURL": "",
+    "androidURL": ""
+  },
+  {
+    "name": "Worldwide Clean Water",
+    "tagline": "Support and monitor global water projects.",
+    "icon": "/icons/worldwide-clean-water.jpeg",
+    "iosURL": "",
+    "androidURL": ""
   }
 ]

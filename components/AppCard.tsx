@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import ImagePreview from './ImagePreview';
 
 interface AppCardProps {
   name: string;
@@ -14,6 +15,7 @@ interface AppCardProps {
 
 export default function AppCard({ name, tagline, icon, iosURL, androidURL }: AppCardProps) {
   const [imageError, setImageError] = useState(false);
+  const [previewOpen, setPreviewOpen] = useState(false);
 
   return (
     <div className="group relative tech-border-animated">
@@ -114,7 +116,8 @@ export default function AppCard({ name, tagline, icon, iosURL, androidURL }: App
            }}>
         {/* App Icon */}
         <div className="mb-4 flex justify-center flex-shrink-0">
-          <div className="relative w-24 h-24 rounded-2xl overflow-hidden glass border border-white/20 group-hover:border-white/40 transition-all flex items-center justify-center">
+          <div className="relative w-24 h-24 rounded-2xl overflow-hidden glass border border-white/20 group-hover:border-white/40 transition-all flex items-center justify-center cursor-pointer hover:opacity-80"
+               onClick={() => setPreviewOpen(true)}>
             {!imageError ? (
               <Image
                 src={icon}
@@ -181,6 +184,13 @@ export default function AppCard({ name, tagline, icon, iosURL, androidURL }: App
           </Link>
         </div>
       </div>
+
+      <ImagePreview
+        isOpen={previewOpen}
+        imageSrc={icon}
+        imageAlt={`${name} icon`}
+        onClose={() => setPreviewOpen(false)}
+      />
     </div>
   );
 }
