@@ -14,9 +14,16 @@ export const metadata: Metadata = {
   description: "Ultimate Mobile Apps develops advanced, secure, user-friendly tools across health, legal, social, and productivity sectors.",
   keywords: "mobile apps, iOS apps, Android apps, VitaChoice, Timer for Life, FreedomTek, LibertySocial, LegalTraker",
   icons: {
-    icon: '/icons/icon.jpeg',
-    apple: '/icons/icon.jpeg',
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
+  manifest: "/manifest.webmanifest",
   openGraph: {
     title: "Ultimate Mobile Apps - Premium Apps. Unified Vision.",
     description: "Ultimate Mobile Apps develops advanced, secure, user-friendly tools across health, legal, social, and productivity sectors.",
