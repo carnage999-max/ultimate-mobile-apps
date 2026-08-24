@@ -60,6 +60,18 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-white/10 text-center text-sm text-gray-400">
           <p>&copy; {currentYear} Ultimate Mobile Apps. All rights reserved.</p>
+          <p className="mt-2 text-sm text-gray-400">
+            Part of the{" "}
+            <a
+              href="https://se7eninc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors underline"
+            >
+              Se7en
+            </a>{" "}
+            family of companies.
+          </p>
         </div>
       </div>
     </footer>
