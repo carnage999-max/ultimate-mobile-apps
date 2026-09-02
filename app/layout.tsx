@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -57,6 +58,11 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
+        <Script
+          src="https://now-hiring-eta.vercel.app/widget.js"
+          data-icon="Smartphone"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
