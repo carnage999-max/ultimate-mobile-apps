@@ -59,7 +59,7 @@ export default function RootLayout({
           <Footer />
         </div>
         <Script
-          src="https://now-hiring-eta.vercel.app/widget.js"
+          src="https://hiring.se7eninc.com/widget.js"
           data-icon="Smartphone"
           strategy="afterInteractive"
         />
